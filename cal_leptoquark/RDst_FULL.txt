@@ -1,0 +1,346 @@
+(0. + (0.0003814229854998974*Power(hA11,2)*
+        (200.15571614318196 - 59.04502572984423*\[Rho]Dst2 + 
+          4.870911743325851*Power(\[Rho]Dst2,2) + 
+          Power(\[CapitalDelta]3,2)*(0.16216131714996518 - 0.04054426767332307*\[Rho]Dst2 + 
+             0.0029390310478812237*Power(\[Rho]Dst2,2)) + 
+          \[CapitalDelta]3*(11.106642782949837 - 3.0183476082225646*\[Rho]Dst2 + 
+             0.233693411287558*Power(\[Rho]Dst2,2)) + 
+          Power(R21,2)*(40.955261663752275 - 12.1052559135445*\[Rho]Dst2 + 
+             1.*Power(\[Rho]Dst2,2)) + 
+          R21*(-181.078585088732 + 53.469638106474065*\[Rho]Dst2 - 
+             4.414016899669555*Power(\[Rho]Dst2,2) + 
+             \[CapitalDelta]3*(-5.020757230126823 + 1.3658857015288806*\[Rho]Dst2 - 
+                0.10583312272059556*Power(\[Rho]Dst2,2))))*
+        Power(Abs(CS1 - 1.*CS2),2))/Power(mbPmc,2) + 
+     Power(hA11,2)*(Power(mbPmc,2)*
+         (7.951832783208808e-7 - 3.04555208567171e-7*\[Rho]Dst2 + 
+           3.025163809674795e-8*Power(\[Rho]Dst2,2) + 
+           R11*(-0.00006495101236954564 + 0.000023490263105137998*\[Rho]Dst2 - 
+              2.2398258866162303e-6*Power(\[Rho]Dst2,2)) + 
+           Power(R11,2)*(0.0014626776110531182 - 
+              0.00048272573615856963*\[Rho]Dst2 + 
+              0.00004339011340339148*Power(\[Rho]Dst2,2))) + 
+        Power(mbMmc,2)*(0.025582520170939777 - 
+           0.0068952506336765204*\[Rho]Dst2 + 
+           0.0005545882513819993*Power(\[Rho]Dst2,2) + 
+           \[CapitalDelta]3*(-0.00029104272223364885 + 0.00008983699796560681*\[Rho]Dst2 - 
+              7.675638397805538e-6*Power(\[Rho]Dst2,2)) + 
+           Power(R21,2)*(2.925539220531767e-37 - 
+              1.0172136376844575e-37*\[Rho]Dst2 + 
+              9.394813747412587e-39*Power(\[Rho]Dst2,2)) + 
+           Power(\[CapitalDelta]3,2)*(4.189668310990552e-6 - 1.447598262665198e-6*\[Rho]Dst2 + 
+              1.3306537822597635e-7*Power(\[Rho]Dst2,2)) + 
+           R21*(-7.650336786695107e-20 + 2.372470109281603e-20*\[Rho]Dst2 - 
+              2.033670684581211e-21*Power(\[Rho]Dst2,2) + 
+              \[CapitalDelta]3*(2.2140564565540654e-21 - 7.674190752575326e-22*\[Rho]Dst2 + 
+                 7.071049276579794e-23*Power(\[Rho]Dst2,2)))) + 
+        mbMmc*mbPmc*(-1.3581280979331775e-18 - 2.5148651157300003e-22*\[CapitalDelta]3 - 
+           6.035731014855145e-19*\[Rho]Dst2 + 1.0438552759073408e-22*\[CapitalDelta]3*\[Rho]Dst2 - 
+           1.2217859042394043e-19*Power(\[Rho]Dst2,2) - 
+           1.0937471322717346e-23*\[CapitalDelta]3*Power(\[Rho]Dst2,2) + 
+           R21*(-6.711756728018738e-38 + 2.787633267724401e-38*\[Rho]Dst2 - 
+              2.9232723300967506e-39*Power(\[Rho]Dst2,2)) + 
+           R11*(-6.54616723150425e-18 - 2.1489301718287723e-17*\[Rho]Dst2 + 
+              1.2762461025711224e-18*Power(\[Rho]Dst2,2) + 
+              R21*(2.3420112653511584e-36 - 9.818794786987506e-37*\[Rho]Dst2 + 
+                 1.0184991149804732e-37*Power(\[Rho]Dst2,2)) + 
+              \[CapitalDelta]3*(8.77100670246e-21 - 3.679294937893606e-21*\[Rho]Dst2 + 
+                 3.814215477640381e-22*Power(\[Rho]Dst2,2)))))*Power(Abs(CT),2)\
+      + 0.030254643456755624*Power(hA11,2)*Power(Abs(1 + CV1),2) - 
+     0.000029428775442260747*Power(hA11,2)*R11*Power(Abs(1 + CV1),2) + 
+     0.0007343694139646086*Power(hA11,2)*Power(R11,2)*
+      Power(Abs(1 + CV1),2) - 0.011072908714145064*Power(hA11,2)*R21*
+      Power(Abs(1 + CV1),2) + 0.0019220011820663837*Power(hA11,2)*
+      Power(R21,2)*Power(Abs(1 + CV1),2) + 
+     0.00029493794054002645*Power(hA11,2)*\[CapitalDelta]3*Power(Abs(1 + CV1),2) - 
+     0.00013349521629621802*Power(hA11,2)*R21*\[CapitalDelta]3*Power(Abs(1 + CV1),2) + 
+     3.887335265869437e-6*Power(hA11,2)*Power(\[CapitalDelta]3,2)*Power(Abs(1 + CV1),2) - 
+     0.008542734639407037*Power(hA11,2)*\[Rho]Dst2*Power(Abs(1 + CV1),2) + 
+     9.911598201286346e-6*Power(hA11,2)*R11*\[Rho]Dst2*Power(Abs(1 + CV1),2) - 
+     0.00022032907826043975*Power(hA11,2)*Power(R11,2)*\[Rho]Dst2*
+      Power(Abs(1 + CV1),2) + 0.0037396547918801*Power(hA11,2)*R21*\[Rho]Dst2*
+      Power(Abs(1 + CV1),2) - 0.0006697488809060423*Power(hA11,2)*
+      Power(R21,2)*\[Rho]Dst2*Power(Abs(1 + CV1),2) - 
+     0.0000934263320002305*Power(hA11,2)*\[CapitalDelta]3*\[Rho]Dst2*Power(Abs(1 + CV1),2) + 
+     0.00004232437499355708*Power(hA11,2)*R21*\[CapitalDelta]3*\[Rho]Dst2*
+      Power(Abs(1 + CV1),2) - 1.1376776993503411e-6*Power(hA11,2)*
+      Power(\[CapitalDelta]3,2)*\[Rho]Dst2*Power(Abs(1 + CV1),2) + 
+     0.0007082924178598534*Power(hA11,2)*Power(\[Rho]Dst2,2)*
+      Power(Abs(1 + CV1),2) - 8.926704671522045e-7*Power(hA11,2)*R11*
+      Power(\[Rho]Dst2,2)*Power(Abs(1 + CV1),2) + 
+     0.000018420800360323613*Power(hA11,2)*Power(R11,2)*Power(\[Rho]Dst2,2)*
+      Power(Abs(1 + CV1),2) - 0.0003415435683189837*Power(hA11,2)*R21*
+      Power(\[Rho]Dst2,2)*Power(Abs(1 + CV1),2) + 
+     0.00006245643308607658*Power(hA11,2)*Power(R21,2)*Power(\[Rho]Dst2,2)*
+      Power(Abs(1 + CV1),2) + 8.13860365504776e-6*Power(hA11,2)*\[CapitalDelta]3*
+      Power(\[Rho]Dst2,2)*Power(Abs(1 + CV1),2) - 
+     3.689264332183857e-6*Power(hA11,2)*R21*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Power(Abs(1 + CV1),2) + 9.332412489660764e-8*Power(hA11,2)*
+      Power(\[CapitalDelta]3,2)*Power(\[Rho]Dst2,2)*Power(Abs(1 + CV1),2) + 
+     0.030254643456755624*Power(hA11,2)*Power(Abs(CV2),2) - 
+     0.000029428775442260747*Power(hA11,2)*R11*Power(Abs(CV2),2) + 
+     0.0007343694139646086*Power(hA11,2)*Power(R11,2)*Power(Abs(CV2),2) - 
+     0.011072908714145064*Power(hA11,2)*R21*Power(Abs(CV2),2) + 
+     0.0019220011820663837*Power(hA11,2)*Power(R21,2)*Power(Abs(CV2),2) + 
+     0.00029493794054002645*Power(hA11,2)*\[CapitalDelta]3*Power(Abs(CV2),2) - 
+     0.00013349521629621802*Power(hA11,2)*R21*\[CapitalDelta]3*Power(Abs(CV2),2) + 
+     3.887335265869437e-6*Power(hA11,2)*Power(\[CapitalDelta]3,2)*Power(Abs(CV2),2) - 
+     0.008542734639407037*Power(hA11,2)*\[Rho]Dst2*Power(Abs(CV2),2) + 
+     9.911598201286346e-6*Power(hA11,2)*R11*\[Rho]Dst2*Power(Abs(CV2),2) - 
+     0.00022032907826043975*Power(hA11,2)*Power(R11,2)*\[Rho]Dst2*
+      Power(Abs(CV2),2) + 0.0037396547918801*Power(hA11,2)*R21*\[Rho]Dst2*
+      Power(Abs(CV2),2) - 0.0006697488809060423*Power(hA11,2)*Power(R21,2)*
+      \[Rho]Dst2*Power(Abs(CV2),2) - 
+     0.0000934263320002305*Power(hA11,2)*\[CapitalDelta]3*\[Rho]Dst2*Power(Abs(CV2),2) + 
+     0.00004232437499355708*Power(hA11,2)*R21*\[CapitalDelta]3*\[Rho]Dst2*Power(Abs(CV2),2) - 
+     1.1376776993503411e-6*Power(hA11,2)*Power(\[CapitalDelta]3,2)*\[Rho]Dst2*
+      Power(Abs(CV2),2) + 0.0007082924178598534*Power(hA11,2)*
+      Power(\[Rho]Dst2,2)*Power(Abs(CV2),2) - 
+     8.926704671522045e-7*Power(hA11,2)*R11*Power(\[Rho]Dst2,2)*
+      Power(Abs(CV2),2) + 0.000018420800360323613*Power(hA11,2)*
+      Power(R11,2)*Power(\[Rho]Dst2,2)*Power(Abs(CV2),2) - 
+     0.0003415435683189837*Power(hA11,2)*R21*Power(\[Rho]Dst2,2)*
+      Power(Abs(CV2),2) + 0.00006245643308607658*Power(hA11,2)*Power(R21,2)*
+      Power(\[Rho]Dst2,2)*Power(Abs(CV2),2) + 
+     8.13860365504776e-6*Power(hA11,2)*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Power(Abs(CV2),2) - 3.689264332183857e-6*Power(hA11,2)*R21*\[CapitalDelta]3*
+      Power(\[Rho]Dst2,2)*Power(Abs(CV2),2) + 
+     9.332412489660764e-8*Power(hA11,2)*Power(\[CapitalDelta]3,2)*Power(\[Rho]Dst2,2)*
+      Power(Abs(CV2),2) + (0.04144330132436068*Power(hA11,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (0.03751744750983049*Power(hA11,2)*R21*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.008490937717314413*Power(hA11,2)*Power(R21,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.0021789378469524966*Power(hA11,2)*\[CapitalDelta]3*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (0.0009855979226152775*Power(hA11,2)*R21*\[CapitalDelta]3*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.00003030671973485405*Power(hA11,2)*Power(\[CapitalDelta]3,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (0.013174986773668847*Power(hA11,2)*\[Rho]Dst2*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.01193746784975276*Power(hA11,2)*R21*\[Rho]Dst2*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (0.002704063504749281*Power(hA11,2)*Power(R21,2)*\[Rho]Dst2*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (0.0006402381880497138*Power(hA11,2)*\[CapitalDelta]3*\[Rho]Dst2*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.0002898839301224981*Power(hA11,2)*R21*\[CapitalDelta]3*\[Rho]Dst2*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (8.201227824109433e-6*Power(hA11,2)*Power(\[CapitalDelta]3,2)*\[Rho]Dst2*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.001150592951757508*Power(hA11,2)*Power(\[Rho]Dst2,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (0.001043158289727365*Power(hA11,2)*R21*Power(\[Rho]Dst2,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.00023643993251746013*Power(hA11,2)*Power(R21,2)*Power(\[Rho]Dst2,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (0.00005266795972187148*Power(hA11,2)*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc - 
+     (0.000023863324110618327*Power(hA11,2)*R21*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     (6.330191780842525e-7*Power(hA11,2)*Power(\[CapitalDelta]3,2)*Power(\[Rho]Dst2,2)*
+        Re((1 + CV1 - CV2)*(Conjugate(CS1) - Conjugate(CS2))))/mbPmc + 
+     0.043439468009419516*Power(hA11,2)*mbMmc*Re(CV2*Conjugate(CT)) + 
+     9.798284135027003e-7*Power(hA11,2)*mbPmc*Re(CV2*Conjugate(CT)) + 
+     1.8655855168452323e-19*Power(hA11,2)*mbMmc*R11*Re(CV2*Conjugate(CT)) - 
+     0.00008243139537072506*Power(hA11,2)*mbPmc*R11*Re(CV2*Conjugate(CT)) + 
+     0.0019292013079590545*Power(hA11,2)*mbPmc*Power(R11,2)*
+      Re(CV2*Conjugate(CT)) - 0.0034193696288309103*Power(hA11,2)*mbMmc*R21*
+      Re(CV2*Conjugate(CT)) - 3.401673954395168e-21*Power(hA11,2)*mbPmc*R21*
+      Re(CV2*Conjugate(CT)) + 1.1860839048240666e-19*Power(hA11,2)*mbPmc*
+      R11*R21*Re(CV2*Conjugate(CT)) + 
+     2.7286114008961167e-20*Power(hA11,2)*mbMmc*Power(R21,2)*
+      Re(CV2*Conjugate(CT)) - 0.00042445809518316664*Power(hA11,2)*mbMmc*\[CapitalDelta]3*
+      Re(CV2*Conjugate(CT)) - 3.925810877538916e-38*Power(hA11,2)*mbPmc*\[CapitalDelta]3*
+      Re(CV2*Conjugate(CT)) + 1.3687507790235089e-36*Power(hA11,2)*mbPmc*
+      R11*\[CapitalDelta]3*Re(CV2*Conjugate(CT)) + 
+     0.00010311438255775624*Power(hA11,2)*mbMmc*R21*\[CapitalDelta]3*
+      Re(CV2*Conjugate(CT)) + 1.2009435683456312e-21*Power(hA11,2)*mbMmc*
+      Power(\[CapitalDelta]3,2)*Re(CV2*Conjugate(CT)) - 
+     0.01161218633941612*Power(hA11,2)*mbMmc*\[Rho]Dst2*Re(CV2*Conjugate(CT)) - 
+     3.671921590794541e-7*Power(hA11,2)*mbPmc*\[Rho]Dst2*Re(CV2*Conjugate(CT)) - 
+     5.941230378828234e-20*Power(hA11,2)*mbMmc*R11*\[Rho]Dst2*
+      Re(CV2*Conjugate(CT)) + 0.000029013422192823387*Power(hA11,2)*mbPmc*
+      R11*\[Rho]Dst2*Re(CV2*Conjugate(CT)) - 
+     0.0006143824185095328*Power(hA11,2)*mbPmc*Power(R11,2)*\[Rho]Dst2*
+      Re(CV2*Conjugate(CT)) + 0.0010999351744124196*Power(hA11,2)*mbMmc*R21*
+      \[Rho]Dst2*Re(CV2*Conjugate(CT)) + 
+     1.4233343671470915e-21*Power(hA11,2)*mbPmc*R21*\[Rho]Dst2*
+      Re(CV2*Conjugate(CT)) - 4.972454414285408e-20*Power(hA11,2)*mbPmc*R11*
+      R21*\[Rho]Dst2*Re(CV2*Conjugate(CT)) - 
+     9.737246894582423e-21*Power(hA11,2)*mbMmc*Power(R21,2)*\[Rho]Dst2*
+      Re(CV2*Conjugate(CT)) + 0.00013948436590074546*Power(hA11,2)*mbMmc*\[CapitalDelta]3*
+      \[Rho]Dst2*Re(CV2*Conjugate(CT)) + 
+     1.6415007515343318e-38*Power(hA11,2)*mbPmc*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CV2*Conjugate(CT)) - 5.739045781158288e-37*Power(hA11,2)*mbPmc*R11*
+      \[CapitalDelta]3*\[Rho]Dst2*Re(CV2*Conjugate(CT)) - 
+     0.000036689865865273666*Power(hA11,2)*mbMmc*R21*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CV2*Conjugate(CT)) - 4.260582028894552e-22*Power(hA11,2)*mbMmc*
+      Power(\[CapitalDelta]3,2)*\[Rho]Dst2*Re(CV2*Conjugate(CT)) + 
+     0.000925606417129734*Power(hA11,2)*mbMmc*Power(\[Rho]Dst2,2)*
+      Re(CV2*Conjugate(CT)) + 3.581177810278494e-8*Power(hA11,2)*mbPmc*
+      Power(\[Rho]Dst2,2)*Re(CV2*Conjugate(CT)) + 
+     5.194937572194414e-21*Power(hA11,2)*mbMmc*R11*Power(\[Rho]Dst2,2)*
+      Re(CV2*Conjugate(CT)) - 2.7059893094927234e-6*Power(hA11,2)*mbPmc*R11*
+      Power(\[Rho]Dst2,2)*Re(CV2*Conjugate(CT)) + 
+     0.00005372083063766073*Power(hA11,2)*mbPmc*Power(R11,2)*Power(\[Rho]Dst2,2)*
+      Re(CV2*Conjugate(CT)) - 0.00009686213016794422*Power(hA11,2)*mbMmc*
+      R21*Power(\[Rho]Dst2,2)*Re(CV2*Conjugate(CT)) - 
+     1.5052469308078281e-22*Power(hA11,2)*mbPmc*R21*Power(\[Rho]Dst2,2)*
+      Re(CV2*Conjugate(CT)) + 5.195400166308854e-21*Power(hA11,2)*mbPmc*R11*
+      R21*Power(\[Rho]Dst2,2)*Re(CV2*Conjugate(CT)) + 
+     9.177660983172838e-22*Power(hA11,2)*mbMmc*Power(R21,2)*Power(\[Rho]Dst2,2)*
+      Re(CV2*Conjugate(CT)) - 0.000012466760784620066*Power(hA11,2)*mbMmc*
+      \[CapitalDelta]3*Power(\[Rho]Dst2,2)*Re(CV2*Conjugate(CT)) - 
+     1.7345605810270768e-39*Power(hA11,2)*mbPmc*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CV2*Conjugate(CT)) + 5.992292388488751e-38*Power(hA11,2)*mbPmc*R11*
+      \[CapitalDelta]3*Power(\[Rho]Dst2,2)*Re(CV2*Conjugate(CT)) + 
+     3.450552924495197e-6*Power(hA11,2)*mbMmc*R21*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CV2*Conjugate(CT)) + 3.998057390849867e-23*Power(hA11,2)*mbMmc*
+      Power(\[CapitalDelta]3,2)*Power(\[Rho]Dst2,2)*Re(CV2*Conjugate(CT)) - 
+     0.043439468009419516*Power(hA11,2)*mbMmc*Re(CT + CV1*Conjugate(CT)) + 
+     9.79828413474989e-7*Power(hA11,2)*mbPmc*Re(CT + CV1*Conjugate(CT)) + 
+     1.8655855168452323e-19*Power(hA11,2)*mbMmc*R11*
+      Re(CT + CV1*Conjugate(CT)) - 
+     0.00008243139536951311*Power(hA11,2)*mbPmc*R11*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.0019292013079590545*Power(hA11,2)*mbPmc*Power(R11,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.0034193696288309103*Power(hA11,2)*mbMmc*R21*
+      Re(CT + CV1*Conjugate(CT)) + 
+     3.401673954395168e-21*Power(hA11,2)*mbPmc*R21*
+      Re(CT + CV1*Conjugate(CT)) - 
+     1.1860839048240664e-19*Power(hA11,2)*mbPmc*R11*R21*
+      Re(CT + CV1*Conjugate(CT)) - 
+     2.7286114008961167e-20*Power(hA11,2)*mbMmc*Power(R21,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.00042445809518316664*Power(hA11,2)*mbMmc*\[CapitalDelta]3*
+      Re(CT + CV1*Conjugate(CT)) + 
+     3.925810877538916e-38*Power(hA11,2)*mbPmc*\[CapitalDelta]3*
+      Re(CT + CV1*Conjugate(CT)) - 
+     1.3687507790235089e-36*Power(hA11,2)*mbPmc*R11*\[CapitalDelta]3*
+      Re(CT + CV1*Conjugate(CT)) - 
+     0.00010311438255775624*Power(hA11,2)*mbMmc*R21*\[CapitalDelta]3*
+      Re(CT + CV1*Conjugate(CT)) - 
+     1.2009435683456316e-21*Power(hA11,2)*mbMmc*Power(\[CapitalDelta]3,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.01161218633941612*Power(hA11,2)*mbMmc*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     3.671921590823067e-7*Power(hA11,2)*mbPmc*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     5.941230378828233e-20*Power(hA11,2)*mbMmc*R11*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.000029013422192870672*Power(hA11,2)*mbPmc*R11*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     0.0006143824185095327*Power(hA11,2)*mbPmc*Power(R11,2)*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     0.0010999351744124196*Power(hA11,2)*mbMmc*R21*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     1.4233343671470917e-21*Power(hA11,2)*mbPmc*R21*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) + 
+     4.972454414285407e-20*Power(hA11,2)*mbPmc*R11*R21*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) + 
+     9.73724689458242e-21*Power(hA11,2)*mbMmc*Power(R21,2)*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     0.00013948436590074546*Power(hA11,2)*mbMmc*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     1.6415007515343315e-38*Power(hA11,2)*mbPmc*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) + 
+     5.739045781158287e-37*Power(hA11,2)*mbPmc*R11*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.000036689865865273666*Power(hA11,2)*mbMmc*R21*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) + 
+     4.260582028894552e-22*Power(hA11,2)*mbMmc*Power(\[CapitalDelta]3,2)*\[Rho]Dst2*
+      Re(CT + CV1*Conjugate(CT)) - 
+     0.0009256064171297339*Power(hA11,2)*mbMmc*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     3.58117781030956e-8*Power(hA11,2)*mbPmc*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     5.194937572194414e-21*Power(hA11,2)*mbMmc*R11*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) - 
+     2.705989309492176e-6*Power(hA11,2)*mbPmc*R11*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.000053720830637660746*Power(hA11,2)*mbPmc*Power(R11,2)*
+      Power(\[Rho]Dst2,2)*Re(CT + CV1*Conjugate(CT)) + 
+     0.00009686213016794424*Power(hA11,2)*mbMmc*R21*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     1.5052469308078281e-22*Power(hA11,2)*mbPmc*R21*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) - 
+     5.195400166308854e-21*Power(hA11,2)*mbPmc*R11*R21*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) - 
+     9.177660983172838e-22*Power(hA11,2)*mbMmc*Power(R21,2)*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     0.000012466760784620066*Power(hA11,2)*mbMmc*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) + 
+     1.7345605810270768e-39*Power(hA11,2)*mbPmc*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) - 
+     5.992292388488751e-38*Power(hA11,2)*mbPmc*R11*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) - 
+     3.450552924495197e-6*Power(hA11,2)*mbMmc*R21*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) - 
+     3.998057390849867e-23*Power(hA11,2)*mbMmc*Power(\[CapitalDelta]3,2)*Power(\[Rho]Dst2,2)*
+      Re(CT + CV1*Conjugate(CT)) - 
+     0.06050795291702513*Power(hA11,2)*Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.000058857550884521494*Power(hA11,2)*R11*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.0014687388279292172*Power(hA11,2)*Power(R11,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.022145817428290124*Power(hA11,2)*R21*Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.0038440023641327674*Power(hA11,2)*Power(R21,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.0005898758810800529*Power(hA11,2)*\[CapitalDelta]3*Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.00026699043259243604*Power(hA11,2)*R21*\[CapitalDelta]3*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     7.774670531738875e-6*Power(hA11,2)*Power(\[CapitalDelta]3,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.017084986257558863*Power(hA11,2)*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.000019823196402572692*Power(hA11,2)*R11*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.0004406581565208795*Power(hA11,2)*Power(R11,2)*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.0074793095837602*Power(hA11,2)*R21*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.0013394977618120844*Power(hA11,2)*Power(R21,2)*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.000186852664000461*Power(hA11,2)*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.00008464874998711415*Power(hA11,2)*R21*\[CapitalDelta]3*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     2.2753553987006822e-6*Power(hA11,2)*Power(\[CapitalDelta]3,2)*\[Rho]Dst2*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.0014165390405698939*Power(hA11,2)*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     1.785340934304409e-6*Power(hA11,2)*R11*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.000036841600720647225*Power(hA11,2)*Power(R11,2)*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     0.0006830871366379674*Power(hA11,2)*R21*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.00012491286617215315*Power(hA11,2)*Power(R21,2)*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     0.00001627720731009552*Power(hA11,2)*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) + 
+     7.378528664367714e-6*Power(hA11,2)*R21*\[CapitalDelta]3*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)) - 
+     1.8664824979321527e-7*Power(hA11,2)*Power(\[CapitalDelta]3,2)*Power(\[Rho]Dst2,2)*
+      Re(CV2 + CV1*Conjugate(CV2)))/
+   (0. + Power(hA11,2)*(0.17957389170325488 - 1.0948037887075082e-18*\[CapitalDelta]3 + 
+        2.3379438621231702e-36*Power(\[CapitalDelta]3,2) - 0.08378631617748233*\[Rho]Dst2 + 
+        5.874693941030267e-19*\[CapitalDelta]3*\[Rho]Dst2 - 
+        1.301922254855869e-36*Power(\[CapitalDelta]3,2)*\[Rho]Dst2 + 
+        0.01088597422339019*Power(\[Rho]Dst2,2) - 
+        8.230978688193583e-20*\[CapitalDelta]3*Power(\[Rho]Dst2,2) + 
+        1.8671634465810482e-37*Power(\[CapitalDelta]3,2)*Power(\[Rho]Dst2,2) + 
+        R11*(-0.00026130896343670175 + 0.00012355740482715148*\[Rho]Dst2 - 
+           0.000015436303110645208*Power(\[Rho]Dst2,2)) + 
+        Power(R11,2)*(0.004402759842982002 - 0.0018896455785886214*\[Rho]Dst2 + 
+           0.00022186379848383934*Power(\[Rho]Dst2,2)) + 
+        Power(R21,2)*(0.018303717615447346 - 0.010242486422778429*\[Rho]Dst2 + 
+           0.0014741148938045372*Power(\[Rho]Dst2,2)) + 
+        R21*(-0.09657467358167796 + 0.05200218752839687*\[Rho]Dst2 - 
+           0.007302966674209826*Power(\[Rho]Dst2,2) + 
+           \[CapitalDelta]3*(4.136880533546651e-19 - 2.309365455120142e-19*\[Rho]Dst2 + 
+              3.317886682533982e-20*Power(\[Rho]Dst2,2)))))
